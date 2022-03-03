@@ -16,5 +16,6 @@
     @yield('main')
     @yield('jumbotron')
     @yield('comics')
+    @yield('merchandise')
 </body>
 </html>

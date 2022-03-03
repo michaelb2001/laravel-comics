@@ -1,0 +1,32 @@
+.container-fluid.merchandise{
+    width: 100%;
+    background-color: $thirdColor;
+    .container.merchandise{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      min-height: 100px;
+      width: 100%;
+      padding: 20px;
+      background-color: $thirdColor;
+  
+      .elemento_primo_container{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin: 10px;
+        img{
+          height: 60px;
+        }
+  
+        p{
+          margin-left: 10px;
+          color: $secondaryColor;
+        }
+      }
+  
+  
+    }
+  
+    
+  }
