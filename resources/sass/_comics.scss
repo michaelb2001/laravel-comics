@@ -13,6 +13,7 @@
     position: relative;
     padding-top: 30px;
     background-color: $mainColor;
+    text-align: center;
     .striscetta{
         position: absolute;
     
@@ -23,5 +24,12 @@
         font-size: 18px;
         color: $secondaryColor;
         border-radius : 0px 15px 15px 0px;
+    }
+    a{
+        background-color: $thirdColor;
+        padding :5px 20px;
+        margin: 40px!important;
+        color:$secondaryColor;
+        text-decoration: none;
     }
 }

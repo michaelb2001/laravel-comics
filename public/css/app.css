@@ -68,6 +68,7 @@
   position: relative;
   padding-top: 30px;
   background-color: #121222;
+  text-align: center;
 }
 
 .container-fluid .striscetta {
@@ -79,5 +80,13 @@
   font-size: 18px;
   color: white;
   border-radius: 0px 15px 15px 0px;
+}
+
+.container-fluid a {
+  background-color: #3e3efd;
+  padding: 5px 20px;
+  margin: 40px !important;
+  color: white;
+  text-decoration: none;
 }
 
