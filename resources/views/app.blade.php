@@ -17,9 +17,15 @@
 
     
     <div class="container comics">
-        @foreach ($array as $key => $value)
+
+          @foreach ($array as $key => $value)
+          <div class="comic">
             <img src="{{$value['thumb']}}">
-        @endforeach
+            <p>{{$value['title']}}</p>
+          </div>
+          @endforeach
+
+
     </div>
     
     <a href="#">LOAD MORE</a>

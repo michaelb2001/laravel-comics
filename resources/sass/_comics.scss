@@ -2,9 +2,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    .comic{
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        overflow-wrap: break-word;
+        max-width: 200px;
 
+        p{
+            color: $secondaryColor;
+        }
+    }
     img{
-        align-self: start;
+        align-self: flex-start;
         width: 170px;
         margin:10px;
     }
@@ -13,7 +27,6 @@
     position: relative;
     padding-top: 30px;
     background-color: $mainColor;
-    text-align: center;
     .striscetta{
         position: absolute;
     
@@ -31,5 +44,5 @@
         margin: 40px!important;
         color:$secondaryColor;
         text-decoration: none;
-    }
+      }
 }
