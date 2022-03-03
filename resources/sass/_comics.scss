@@ -1,0 +1,27 @@
+.container.comics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        align-self: start;
+        width: 170px;
+        margin:10px;
+    }
+}
+.container-fluid{
+    position: relative;
+    padding-top: 30px;
+    background-color: $mainColor;
+    .striscetta{
+        position: absolute;
+    
+        left: 200px;
+        top: -15px;
+        padding:  5px 20px;
+        background-color: $thirdColor;
+        font-size: 18px;
+        color: $secondaryColor;
+        border-radius : 0px 15px 15px 0px;
+    }
+}
